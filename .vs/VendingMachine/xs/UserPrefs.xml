@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="{49C206D2-9BD2-4B36-B7EE-425E9F4950AD}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.VendingMachine PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="VendingMachine/VendingMachineApplication.cs">
+    <Files>
+      <File FileName="VendingMachine/PresentationLayer/PaymentView.cs" />
+      <File FileName="VendingMachine/UseCases/BuyUseCase.cs" />
+      <File FileName="VendingMachine/UseCases/LookUseCase.cs" />
+      <File FileName="VendingMachine/UseCases/LogoutUseCase.cs" />
+      <File FileName="VendingMachine/UseCases/LoginUseCase.cs" />
+      <File FileName="VendingMachine/Authentication/Interfaces/IAuthenticationService.cs" />
+      <File FileName="VendingMachine/PresentationLayer/Interfaces/IBuyView.cs" />
+      <File FileName="VendingMachine/PresentationLayer/BuyView.cs" />
+      <File FileName="VendingMachine/Exceptions/OutOfStockException.cs" />
+      <File FileName="VendingMachine/Exceptions/InvalidTypeException.cs" />
+      <File FileName="VendingMachine/PresentationLayer/MainView.cs" />
+      <File FileName="VendingMachine/PresentationLayer/LookView.cs" />
+      <File FileName="VendingMachine/PresentationLayer/LoginView.cs" />
+      <File FileName="VendingMachine/PresentationLayer/DisplayBase.cs" />
+      <File FileName="VendingMachine/PresentationLayer/Interfaces/ILookView.cs" />
+      <File FileName="VendingMachine/PresentationLayer/ApplicationHeaderControl.cs" />
+      <File FileName="VendingMachine/Program.cs" />
+      <File FileName="VendingMachine/Bootstrapper.cs" />
+      <File FileName="VendingMachine/VendingMachineApplication.cs" Line="40" Column="39" />
+      <File FileName="VendingMachine/Authentication/AuthenticationService.cs" />
+      <File FileName="VendingMachine/PresentationLayer/CommandSelectorControl.cs" />
+      <File FileName="VendingMachine/Repositories/InMemoryRepository.cs" />
+      <File FileName="VendingMachine/Exceptions/CancelationException.cs" />
+      <File FileName="VendingMachine/Exceptions/InvalidIdException.cs" />
+      <File FileName="../../../../../../usr/local/share/dotnet/sdk/7.0.100/Microsoft.Common.CurrentVersion.targets" />
+      <File FileName="VendingMachine/Repositories/Interfaces/IInMemoryRepository.cs" />
+      <File FileName="VendingMachine/Exceptions/TooBigMoneyException.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VendingMachine" expanded="True">
+            <Node name="VendingMachine" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="Authentication" expanded="True" />
+              <Node name="Exceptions" expanded="True" />
+              <Node name="PresentationLayer" expanded="True" />
+              <Node name="Repositories" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+                <Node name="Model" expanded="True" />
+              </Node>
+              <Node name="UseCases" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <AssemblyName>iQuest.VendingMachine</AssemblyName>
+        <RootNamespace>iQuest.VendingMachine</RootNamespace>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <Company>iQuest</Company>
+        <Authors>Remote Learning</Authors>
+        <Product>Vending Machine</Product>
+        <Description>This is an exercise used in the Remote Learning program from iQuest.</Description>
+        <Copyright>Copyright © iQuest 2017-2020</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Repositories\" />
+      <None Remove="Repositories\Model\" />
+      <None Remove="Repositories\Interfaces\" />
+      <None Remove="PresentationLayer\Interfaces\" />
+      <None Remove="Authentication\Interfaces\" />
+      <None Remove="Exceptions\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="PresentationLayer\Interfaces\" />
+      <Folder Include="Exceptions\" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="entityframework" Version="6.4.4" />
+    </ItemGroup>
+</Project>
